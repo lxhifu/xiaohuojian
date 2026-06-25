@@ -1,3 +1,4 @@
+# =========================================
 # Google 优化规则
 # =========================================
 # > 核心关键词 (已涵盖绝大多数 Google 服务及各区 ccTLD)
@@ -7,7 +8,7 @@ DOMAIN-KEYWORD,blogspot,PROXY
 DOMAIN-KEYWORD,recaptcha,PROXY
 DOMAIN-KEYWORD,appspot,PROXY
 
-# > Google 旗下其他重要独立域名
+# > Google 旗下其他重要独立域名及顶级域名
 DOMAIN-SUFFIX,1e100.net,PROXY
 DOMAIN-SUFFIX,2mdn.net,PROXY
 DOMAIN-SUFFIX,abc.xyz,PROXY
@@ -30,6 +31,9 @@ DOMAIN-SUFFIX,gcr.io,PROXY
 DOMAIN-SUFFIX,goo.gl,PROXY
 DOMAIN-SUFFIX,gstatic.com,PROXY
 DOMAIN-SUFFIX,gstatic.cn,PROXY
+DOMAIN-SUFFIX,goog,PROXY
+DOMAIN-SUFFIX,gle,PROXY
+DOMAIN,voice.telephony.goog,PROXY
 DOMAIN-KEYWORD,gvt1,PROXY
 DOMAIN-KEYWORD,gvt2,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
@@ -57,10 +61,19 @@ PROCESS-NAME,com.google.android.play.games,PROXY
 PROCESS-NAME,BackupandSync,PROXY
 
 # =========================================
-# GitHub 优化规则 (精简去重版)
+# GitHub 优化规则 (精简去重与性能优化版)
 # =========================================
-# > 核心关键词 (已涵盖 github.com, github.io 等)
+# > 核心关键词与主域名
 DOMAIN-KEYWORD,github,PROXY
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,github.io,PROXY
+
+# > GitHub 核心资产与 CDN (显式声明以提升匹配效率)
+DOMAIN-SUFFIX,githubassets.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+DOMAIN-SUFFIX,githubapp.com,PROXY
+DOMAIN-SUFFIX,github.dev,PROXY
+DOMAIN-SUFFIX,githubcopilot.com,PROXY
 
 # > GitHub 旗下其他独立域名及相关依赖库
 DOMAIN-SUFFIX,atom.io,PROXY
@@ -71,10 +84,4 @@ DOMAIN-SUFFIX,npmjs.com,PROXY
 DOMAIN-SUFFIX,npmjs.org,PROXY
 DOMAIN-SUFFIX,npm.community,PROXY
 DOMAIN-SUFFIX,opensource.guide,PROXY
-DOMAIN-SUFFIX,rawgit.com,PROXY
 DOMAIN-SUFFIX,repo.new,PROXY
-
-# > Google Voice 及特殊顶级域名
-DOMAIN,voice.telephony.goog,PROXY
-DOMAIN-SUFFIX,goog,PROXY
-DOMAIN-SUFFIX,gle,PROXY
