@@ -1,0 +1,58 @@
+# =========================================
+# 小火箭 (Shadowrocket) 基础广告拦截规则
+# 策略说明：REJECT 表示拒绝连接（拦截）
+# =========================================
+
+# > 苹果自带广告及隐私追踪 (Apple Ads & Analytics)
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+
+# > 谷歌广告系统 (Google Ads)
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
+
+# > 友盟统计及追踪 (Umeng)
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umeng.co,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,cnzz.com,REJECT
+
+# > 腾讯广告系统 (Tencent Ads)
+DOMAIN-SUFFIX,ad.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-KEYWORD,tencentad,REJECT
+
+# > 百度广告 (Baidu Ads)
+DOMAIN-SUFFIX,cpro.baidu.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
+DOMAIN-SUFFIX,baidustatic.com,REJECT
+
+# > 阿里系广告及追踪 (Alibaba Ads)
+DOMAIN-SUFFIX,alimama.com,REJECT
+DOMAIN-SUFFIX,mmstat.com,REJECT
+DOMAIN-SUFFIX,tanx.com,REJECT
+
+# > 字节跳动/穿山甲广告 (Bytedance Ads)
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,ad.toutiao.com,REJECT
+
+# > 其他常见国内数据收集与广告联盟
+DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,talkingdata.com,REJECT
+DOMAIN-SUFFIX,极光推送,REJECT
+DOMAIN-SUFFIX,jpush.cn,REJECT
+DOMAIN-SUFFIX,jiguang.cn,REJECT
+
+# > 通用广告关键字拦截 (风险较高，如误杀请删除)
+DOMAIN-KEYWORD,adsystem,REJECT
+DOMAIN-KEYWORD,adserver,REJECT
+DOMAIN-KEYWORD,admicro,REJECT
+DOMAIN-KEYWORD,adtech,REJECT
