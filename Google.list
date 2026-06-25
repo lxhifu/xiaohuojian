@@ -73,3 +73,8 @@ DOMAIN-SUFFIX,npm.community,PROXY
 DOMAIN-SUFFIX,opensource.guide,PROXY
 DOMAIN-SUFFIX,rawgit.com,PROXY
 DOMAIN-SUFFIX,repo.new,PROXY
+
+# > Google Voice 及特殊顶级域名
+DOMAIN,voice.telephony.goog,PROXY
+DOMAIN-SUFFIX,goog,PROXY
+DOMAIN-SUFFIX,gle,PROXY
