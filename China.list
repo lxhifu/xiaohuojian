@@ -28,6 +28,8 @@ DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,ms
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,officecdn
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,live.com
 USER-AGENT,Microsoft*
 
 # > 4. 银行与金融 (含原列表的工商/招行/中银)
