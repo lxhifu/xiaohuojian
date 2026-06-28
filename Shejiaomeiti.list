@@ -1,27 +1,5 @@
 # -----------------------------------------
-# [1] X / Twitter (核心站点、CDN与关联生态)
-# -----------------------------------------
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,tweetdeck.com
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,twimg
-IP-ASN,13414,no-resolve
-IP-ASN,35995,no-resolve
-IP-CIDR,104.244.42.0/21,no-resolve
-IP-CIDR,192.133.77.0/26,no-resolve
-IP-CIDR,199.16.156.0/22,no-resolve
-IP-CIDR,199.59.148.0/22,no-resolve
-IP-CIDR,202.160.128.0/20,no-resolve
-
-# -----------------------------------------
-# [2] WhatsApp
+# [1] WhatsApp
 # -----------------------------------------
 DOMAIN-SUFFIX,wa.me
 DOMAIN-SUFFIX,whatsapp-plus.info
@@ -37,7 +15,7 @@ DOMAIN-SUFFIX,whatsapp.tv
 DOMAIN-SUFFIX,whatsappbrand.com
 
 # -----------------------------------------
-# [3] Instagram
+# [2] Instagram
 # -----------------------------------------
 DOMAIN-SUFFIX,ig.me
 DOMAIN-SUFFIX,igcdn.com
@@ -105,7 +83,7 @@ DOMAIN-SUFFIX,web-instagram.net
 DOMAIN-SUFFIX,wwwinstagram.com
 
 # -----------------------------------------
-# [4] Oculus (VR)
+# [3] Oculus (VR)
 # -----------------------------------------
 DOMAIN-SUFFIX,binoculus.com
 DOMAIN-SUFFIX,buyoculus.com
@@ -126,7 +104,7 @@ DOMAIN-SUFFIX,oculusvr.com
 DOMAIN-SUFFIX,powersunitedvr.com
 
 # -----------------------------------------
-# [5] Meta & Facebook 核心及基础设施 (含防错拼域名)
+# [4] Meta & Facebook 核心及基础设施 (含防错拼域名)
 # -----------------------------------------
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,aboutfacebook.com
@@ -163,7 +141,7 @@ DOMAIN-SUFFIX,faceboox.com
 DOMAIN-SUFFIX,faceboo.com
 
 # -----------------------------------------
-# [6] 开发者库、开源项目与周边工具
+# [5] 开发者库、开源项目与周边工具
 # -----------------------------------------
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,botorch.org
@@ -198,15 +176,38 @@ DOMAIN-SUFFIX,ogp.me
 DOMAIN-SUFFIX,parse.com
 
 # -----------------------------------------
-# [7] Facebook 域名关键词模糊匹配 (Keyword)
+# [6] TikTok (字节跳动海外)
+# -----------------------------------------
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktok.net
+DOMAIN-SUFFIX,tiktok.org
+DOMAIN-SUFFIX,tiktok.tv
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokinfo.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
+
+# -----------------------------------------
+# [7] 域名关键词模糊匹配 (Keyword)
 # -----------------------------------------
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,tiktok
 
 # -----------------------------------------
-# [8] Facebook IP 地址段及 ASN (绕过 DNS 污染/强制直连或代理)
+# [8] IP 地址段及 ASN (绕过 DNS 污染/强制直连或代理)
 # -----------------------------------------
+IP-ASN,31898,no-resolve
 IP-ASN,32934,no-resolve
 IP-CIDR,3.123.36.126/32,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
