@@ -1,0 +1,40 @@
+# > OpenAI & ChatGPT 核心服务
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# > 语音通话服务 (LiveKit)
+DOMAIN-SUFFIX,livekit.cloud
+
+# > 验证码与安全风控 (Arkose Labs & IdenTrust)
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,identrust.com
+
+# > 支付系统与客服支持 (Stripe & Intercom)
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# > 基础架构与搜索依赖 (Algolia)
+DOMAIN-SUFFIX,algolia.net
+
+# > 数据分析、遥测、A/B 测试与错误收集
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+
+# > 关键词匹配兜底 (处理包含 openai 的复杂长域名)
+DOMAIN-KEYWORD,openai
+
+# > 特定 IP 与 ASN 路由限制
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
