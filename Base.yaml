@@ -1,0 +1,49 @@
+# ========== 策略组 ==========
+proxy-groups:
+  - type: select
+    name: 🚀 节点选择
+    proxies:
+      - ⚡ 自动选择
+      - 圣何塞-Hy2
+      - 法兰克福-Hy2
+      - 春川-Hy2
+      - 本地
+      - /.*/          # 👈 这里使用 /.*/ 表示拉取转换器获取的所有节点
+      - DIRECT
+      - REJECT
+      
+  - name: ⚡ 自动选择
+    type: url-test
+    proxies:
+      - 圣何塞-Hy2
+      - 法兰克福-Hy2
+      - 春川-Hy2
+      - 本地
+      - /.*/          # 👈 将所有节点都加入自动测速组
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    lazy: false
+    
+  - type: select
+    name: 🛑 广告拦截
+    proxies:
+      - REJECT
+      - DIRECT
+      - 🚀 节点选择
+      
+  # 以 AI 服务为例，可以直接引用 "🚀 节点选择"，或者用正则单独筛选特定地区的节点
+  - type: select
+    name: 💬 AI 服务
+    proxies:
+      - 🚀 节点选择
+      - 圣何塞-Hy2
+      - /(?i)(美|US|United States)/  # 👈 进阶用法：只把名字里带“美”或“US”的节点放进AI组
+
+  - type: select
+    name: 📲 电报消息
+    proxies:
+      - 🚀 节点选择
+      - 圣何塞-Hy2
+      - /.*/ 
+      
+# ... (其他策略组以此类推，将原有的硬编码节点替换为 🚀 节点选择 或 /.*/) ...
