@@ -101,3 +101,4 @@ IP-CIDR6,2a0b:b583::/48,no-resolve
 # > 8. 其它自定义
 DOMAIN-SUFFIX,csair.com
 DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,xiekeyun.com
