@@ -1,6 +1,6 @@
 # === 🍏 Apple 官方服务 (建议策略: DIRECT / 直连) ===
 
-# > 1. 核心域名与 CDN 加速节点 (补充了 App Store 和 iCloud)
+# > 1. 核心域名与 CDN 加速节点 (已覆盖各类自带 App 与基础服务)
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,apple.co
@@ -17,42 +17,7 @@ DOMAIN-KEYWORD,buy.itunes.apple.com
 DOMAIN-KEYWORD,smp-device
 DOMAIN-KEYWORD,icloud.com.akadns.net
 
-# > 2. 系统自带 App 与基础服务 (剔除了 News 和 TV)
-USER-AGENT,*FindMyiPhone?
-USER-AGENT,*Music?
-USER-AGENT,*WeatherFoundation*
-USER-AGENT,*com.apple.Maps?
-USER-AGENT,*com.apple.mobileme.fmip1
-USER-AGENT,FMDClient*
-USER-AGENT,FMFD*
-USER-AGENT,FindMyFriends*
-USER-AGENT,FindMyiPhone*
-USER-AGENT,Maps*
-USER-AGENT,Wallet*
-USER-AGENT,com.apple.Maps
-USER-AGENT,com.apple.appstored*
-USER-AGENT,fmflocatord*
-USER-AGENT,geod*
-USER-AGENT,locationd*
-USER-AGENT,passd*
-USER-AGENT,Music*
-USER-AGENT,com.apple.trustd*
-
-# > 3. 苹果系统底层进程与推送服务
-PROCESS-NAME,CoreLocationAgent
-PROCESS-NAME,WeatherWidget
-PROCESS-NAME,apsd
-PROCESS-NAME,com.apple.Maps
-PROCESS-NAME,findmydevice-user-agent
-PROCESS-NAME,fmfd
-PROCESS-NAME,mapspushd
-PROCESS-NAME,netbiosd
-PROCESS-NAME,trustd
-PROCESS-NAME,com.apple.geod
-PROCESS-NAME,Music
-PROCESS-NAME,LookupViewService
-
-# > 4. 苹果专属服务器 IP 段 (国内直连苹果服务器通常更快)
+# > 2. 苹果专属服务器 IP 段 (国内直连苹果服务器通常更快)
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
