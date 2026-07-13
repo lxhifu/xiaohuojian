@@ -3,7 +3,7 @@
 # > 1. 基础与全局后缀
 DOMAIN-SUFFIX,cn
 
-# > 2. 国内互联网大厂与常用服务 (已补充完善)
+# > 2. 国内互联网大厂与常用服务
 # -- 阿里系 --
 DOMAIN-KEYWORD,alibaba
 DOMAIN-KEYWORD,alicdn
@@ -26,56 +26,36 @@ DOMAIN-SUFFIX,126.net
 
 # > 3. 微软服务 (国内通常自带 CDN，直连速度最佳)
 DOMAIN-SUFFIX,ms
-DOMAIN-KEYWORD,microsoft.com
+DOMAIN-SUFFIX,microsoft.com
 DOMAIN-KEYWORD,officecdn
 DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office365.com
-USER-AGENT,Microsoft*
 
-# > 4. 银行与金融 (含原列表的工商/招行/中银)
+# > 4. 银行与金融 (补充了原 USER-AGENT 对应的主要域名)
 DOMAIN-SUFFIX,bochk.com
-USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
-USER-AGENT,cmb*
-USER-AGENT,cmblife*
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,bankofchina.com
+DOMAIN-SUFFIX,cib.com.cn
+DOMAIN-SUFFIX,citicbank.com
+DOMAIN-SUFFIX,spdb.com.cn
 
-# > 5. 常用软件、影音、社交 (User-Agent 精准匹配)
-# -- 腾讯系 App --
-USER-AGENT,MicroMessenger*
-USER-AGENT,MicroMessenger%20Client*
-USER-AGENT,MicroMessengerClient*
-USER-AGENT,WeChat*
-USER-AGENT,QQ*
-USER-AGENT,TIM*
-# -- 影音与社区 --
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-USER-AGENT,NeteaseMusic*
-USER-AGENT,%E4%BC%98%E9%85%B7*
-USER-AGENT,YYeTs*
-USER-AGENT,%E5%8D%B3%E5%88%BB*
-# -- 生活与工具 --
-USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
-USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
-USER-AGENT,AdBlock*
-USER-AGENT,Best%20Trace*
-USER-AGENT,TeamViewer*
-USER-AGENT,WebTorrent*
-USER-AGENT,eusoft_ting_en_iphone*
-USER-AGENT,ting_en*
-USER-AGENT,hide*
+# > 5. 常用软件、影音、社交 (已优化为域名和关键字匹配)
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,yyets.com
+DOMAIN-SUFFIX,okjike.com
+DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-KEYWORD,webtorrent
 
-# > 6. 游戏客户端
+# > 6. 游戏客户端 (提取关键字匹配)
 DOMAIN-KEYWORD,beplay
-USER-AGENT,*Vainglory*
-USER-AGENT,MegaWerewolf*
-USER-AGENT,RemotePlay*
-USER-AGENT,arrowio*
-USER-AGENT,balls*
-USER-AGENT,hearthstone*
+DOMAIN-KEYWORD,vainglory
+DOMAIN-KEYWORD,hearthstone
 
-# > 7. 国内/直连 IP 强制指定段 (通常用于特定的服务器或公有云)
-# 包含腾讯云、阿里云以及一些特殊服务 IP，不解析域名直接放行
+# > 7. 国内/直连 IP 强制指定段 (包含腾讯云、阿里云以及一些特殊服务 IP)
 IP-CIDR,1.255.62.0/24,no-resolve
 IP-CIDR,101.32.96.0/20,no-resolve
 IP-CIDR,101.32.104.0/21,no-resolve
