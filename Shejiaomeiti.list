@@ -1,6 +1,7 @@
 # -----------------------------------------
 # [1] X / Twitter (核心站点、CDN与关联生态)
 # -----------------------------------------
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
