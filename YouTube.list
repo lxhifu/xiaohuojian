@@ -191,15 +191,6 @@ DOMAIN-SUFFIX,youtube.vn
 # > 关键词兜底 (防漏网之鱼)
 DOMAIN-KEYWORD,youtube
 
-# > 移动端特征 User-Agent 匹配
-USER-AGENT,*YouTubeMusic*
-USER-AGENT,*com.google.ios.youtubemusic*
-USER-AGENT,*youtube*
-USER-AGENT,YouTube*
-USER-AGENT,YouTubeMusic*
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,com.google.ios.youtubemusic*
-
 # > 特定 IPv4 与 IPv6 节点
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
