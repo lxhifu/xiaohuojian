@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,126.net
 
 # > 3. 微软服务 (国内通常自带 CDN，直连速度最佳)
-DOMAIN-SUFFIX,ms
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-KEYWORD,officecdn
 DOMAIN-SUFFIX,outlook.com
