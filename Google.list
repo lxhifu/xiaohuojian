@@ -2,78 +2,81 @@
 # Google 优化规则
 # =========================================
 # > 核心关键词 (已涵盖绝大多数 Google 服务及各区 ccTLD)
-DOMAIN-KEYWORD,google,PROXY
-DOMAIN-KEYWORD,gmail,PROXY
-DOMAIN-KEYWORD,blogspot,PROXY
-DOMAIN-KEYWORD,recaptcha,PROXY
-DOMAIN-KEYWORD,appspot,PROXY
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,recaptcha
+DOMAIN-KEYWORD,appspot
 
 # > Google 旗下其他重要独立域名及顶级域名
-DOMAIN-SUFFIX,1e100.net,PROXY
-DOMAIN-SUFFIX,2mdn.net,PROXY
-DOMAIN-SUFFIX,abc.xyz,PROXY
-DOMAIN-SUFFIX,admob.com,PROXY
-DOMAIN-SUFFIX,adsense.com,PROXY
-DOMAIN-SUFFIX,ampproject.org,PROXY
-DOMAIN-SUFFIX,ampproject.com,PROXY
-DOMAIN-SUFFIX,ampproject.net,PROXY
-DOMAIN-SUFFIX,android.com,PROXY
-DOMAIN-SUFFIX,blogger.com,PROXY
-DOMAIN-SUFFIX,chromium.org,PROXY
-DOMAIN-SUFFIX,dialogflow.com,PROXY
-DOMAIN-SUFFIX,doubleclick.net,PROXY
-DOMAIN-SUFFIX,firebaseio.com,PROXY
-DOMAIN-SUFFIX,firebaseapp.com,PROXY
-DOMAIN-SUFFIX,g.cn,PROXY
-DOMAIN-SUFFIX,g.co,PROXY
-DOMAIN-SUFFIX,g.dev,PROXY
-DOMAIN-SUFFIX,gcr.io,PROXY
-DOMAIN-SUFFIX,goo.gl,PROXY
-DOMAIN-SUFFIX,gstatic.com,PROXY
-DOMAIN-SUFFIX,gstatic.cn,PROXY
-DOMAIN-SUFFIX,goog,PROXY
-DOMAIN-SUFFIX,gle,PROXY
-DOMAIN,voice.telephony.goog,PROXY
-DOMAIN-KEYWORD,gvt1,PROXY
-DOMAIN-KEYWORD,gvt2,PROXY
-DOMAIN-SUFFIX,gvt0.com,PROXY
-DOMAIN-SUFFIX,gvt3.com,PROXY
-DOMAIN-SUFFIX,material.io,PROXY
-DOMAIN-SUFFIX,tensorflow.org,PROXY
-DOMAIN-SUFFIX,waymo.com,PROXY
-DOMAIN-SUFFIX,waze.com,PROXY
-DOMAIN-SUFFIX,webrtc.org,PROXY
-DOMAIN-SUFFIX,widevine.com,PROXY
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,adsense.com
+DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,ampproject.com
+DOMAIN-SUFFIX,ampproject.net
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,dialogflow.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,g.cn
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,g.dev
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gstatic.cn
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,gle
+DOMAIN,voice.telephony.goog
+DOMAIN-KEYWORD,gvt1
+DOMAIN-KEYWORD,gvt2
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,material.io
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,waymo.com
+DOMAIN-SUFFIX,waze.com
+DOMAIN-SUFFIX,webrtc.org
+DOMAIN-SUFFIX,widevine.com
 
 # > Google 相关 IP 
-IP-CIDR,172.110.32.0/21,no-resolve,PROXY
-IP-CIDR,173.194.0.0/16,no-resolve,PROXY
-IP-CIDR,216.73.80.0/20,no-resolve,PROXY
-IP-CIDR,74.125.0.0/16,no-resolve,PROXY
-IP-CIDR6,2620:120:e000::/40,no-resolve,PROXY
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
 
 # =========================================
 # GitHub 优化规则 (精简去重与性能优化版)
 # =========================================
 # > 核心关键词与主域名
-DOMAIN-KEYWORD,github,PROXY
-DOMAIN-SUFFIX,github.com,PROXY
-DOMAIN-SUFFIX,github.io,PROXY
+DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
 
 # > GitHub 核心资产与 CDN (显式声明以提升匹配效率)
-DOMAIN-SUFFIX,githubassets.com,PROXY
-DOMAIN-SUFFIX,githubusercontent.com,PROXY
-DOMAIN-SUFFIX,githubapp.com,PROXY
-DOMAIN-SUFFIX,github.dev,PROXY
-DOMAIN-SUFFIX,githubcopilot.com,PROXY
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,githubcopilot.com
 
 # > GitHub 旗下其他独立域名及相关依赖库
-DOMAIN-SUFFIX,atom.io,PROXY
-DOMAIN-SUFFIX,dependabot.com,PROXY
-DOMAIN-SUFFIX,ghcr.io,PROXY
-DOMAIN-SUFFIX,git.io,PROXY
-DOMAIN-SUFFIX,npmjs.com,PROXY
-DOMAIN-SUFFIX,npmjs.org,PROXY
-DOMAIN-SUFFIX,npm.community,PROXY
-DOMAIN-SUFFIX,opensource.guide,PROXY
-DOMAIN-SUFFIX,repo.new,PROXY
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+
+# > 其它
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,repo.new
