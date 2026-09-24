@@ -119,44 +119,7 @@ DOMAIN-SUFFIX,oculusvr.com
 DOMAIN-SUFFIX,powersunitedvr.com
 
 # -----------------------------------------
-# [5] Meta & Facebook 核心及基础设施
-# -----------------------------------------
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,aboutfacebook.com
-DOMAIN-SUFFIX,askfacebook.net
-DOMAIN-SUFFIX,askfacebook.org
-DOMAIN-SUFFIX,careersatfb.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,expresswifi.com
-DOMAIN-SUFFIX,f8.com
-DOMAIN-SUFFIX,fb.careers
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbcdn-a.akamaihd.net
-DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,fbsbx.net
-DOMAIN-SUFFIX,fburl.com
-DOMAIN-SUFFIX,internet.org
-DOMAIN-SUFFIX,m.me
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,messengerdevelopers.com
-DOMAIN-SUFFIX,workplace.com
-DOMAIN-SUFFIX,workplaceusecases.com
-DOMAIN-SUFFIX,zuckerberg.com
-DOMAIN-SUFFIX,zuckerberg.net
-DOMAIN-SUFFIX,thefacebook.com
-DOMAIN-SUFFIX,thefacebook.net
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,facebook.org
-DOMAIN-SUFFIX,facebok.com
-DOMAIN-SUFFIX,faceboox.com
-DOMAIN-SUFFIX,faceboo.com
-
-# -----------------------------------------
-# [6] 开发者库、开源项目与周边工具
+# [5] 开发者库、开源项目与周边工具
 # -----------------------------------------
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,botorch.org
@@ -191,7 +154,7 @@ DOMAIN-SUFFIX,ogp.me
 DOMAIN-SUFFIX,parse.com
 
 # -----------------------------------------
-# [7] TikTok (字节跳动海外)
+# [6] TikTok (字节跳动海外)
 # -----------------------------------------
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -212,7 +175,7 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 
 # -----------------------------------------
-# [8] 域名关键词模糊匹配 (Keyword)
+# [7] 域名关键词模糊匹配 (Keyword)
 # -----------------------------------------
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
@@ -222,7 +185,7 @@ DOMAIN-KEYWORD,twimg
 DOMAIN-KEYWORD,tiktok
 
 # -----------------------------------------
-# [9] IP 地址段及 ASN (涵盖三大生态)
+# [8] IP 地址段及 ASN (涵盖三大生态)
 # -----------------------------------------
 # -- X / Twitter --
 IP-ASN,13414,no-resolve
@@ -234,32 +197,8 @@ IP-CIDR,199.59.148.0/22,no-resolve
 IP-CIDR,202.160.128.0/20,no-resolve
 # -- TikTok --
 IP-ASN,31898,no-resolve
-# -- Meta / Facebook --
-IP-ASN,32934,no-resolve
-IP-CIDR,3.123.36.126/32,no-resolve
-IP-CIDR,31.13.64.0/18,no-resolve
-IP-CIDR,35.157.215.84/32,no-resolve
-IP-CIDR,35.157.217.255/32,no-resolve
-IP-CIDR,52.58.209.134/32,no-resolve
-IP-CIDR,54.93.124.31/32,no-resolve
-IP-CIDR,54.162.243.80/32,no-resolve
-IP-CIDR,54.173.34.141/32,no-resolve
-IP-CIDR,54.235.23.242/32,no-resolve
-IP-CIDR,108.168.176.192/26,no-resolve
-IP-CIDR,108.168.177.0/27,no-resolve
-IP-CIDR,108.168.180.96/27,no-resolve
-IP-CIDR,108.168.254.65/32,no-resolve
-IP-CIDR,108.168.255.224/32,no-resolve
-IP-CIDR,108.168.255.227/32,no-resolve
-IP-CIDR,108.177.8.0/21,no-resolve
-IP-CIDR,119.235.224.0/24,no-resolve
-IP-CIDR,119.235.232.0/24,no-resolve
-IP-CIDR,119.235.236.0/23,no-resolve
-IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,157.240.0.0/17,no-resolve
-IP-CIDR,169.45.248.118/32,no-resolve
-IP-CIDR,173.252.64.0/18,no-resolve
+
 
 # -----------------------------------------
-# [10] 其它补充 (Others)
+# [9] 其它补充 (Others)
 # -----------------------------------------
