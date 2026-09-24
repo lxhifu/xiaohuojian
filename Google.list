@@ -75,12 +75,43 @@ DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
 
-# > Muse AI 
+# [5] Meta & Facebook & Muse核心及基础设施
+# -----------------------------------------
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,aboutfacebook.com
+DOMAIN-SUFFIX,askfacebook.net
+DOMAIN-SUFFIX,askfacebook.org
+DOMAIN-SUFFIX,careersatfb.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,expresswifi.com
+DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,fb.careers
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn-a.akamaihd.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbsbx.net
+DOMAIN-SUFFIX,fburl.com
+DOMAIN-SUFFIX,internet.org
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,messengerdevelopers.com
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-SUFFIX,workplaceusecases.com
+DOMAIN-SUFFIX,zuckerberg.com
+DOMAIN-SUFFIX,zuckerberg.net
+DOMAIN-SUFFIX,thefacebook.com
+DOMAIN-SUFFIX,thefacebook.net
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,facebook.org
+DOMAIN-SUFFIX,facebok.com
+DOMAIN-SUFFIX,faceboox.com
+DOMAIN-SUFFIX,faceboo.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fbcdn.net
 
 # > 其它
 DOMAIN-SUFFIX,spotify.com
