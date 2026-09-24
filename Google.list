@@ -75,9 +75,15 @@ DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
 
+# > Muse AI 
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+
 # > 其它
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,npm.community
 DOMAIN-SUFFIX,opensource.guide
 DOMAIN-SUFFIX,repo.new
-DOMAIN-SUFFIX,muse.ai
