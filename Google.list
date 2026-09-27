@@ -112,6 +112,7 @@ DOMAIN-SUFFIX,faceboox.com
 DOMAIN-SUFFIX,faceboo.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
 IP-ASN,32934,no-resolve
 IP-CIDR,3.123.36.126/32,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
