@@ -195,6 +195,13 @@ DOMAIN-SUFFIX,tiktokinfo.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutstatic.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,snssdk.com
+
 # -----------------------------------------
 # [7] 域名关键词模糊匹配 (Keyword)
 # -----------------------------------------
