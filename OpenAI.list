@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,livekit.cloud
 # > 验证码与安全风控 (Arkose Labs & IdenTrust)
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,auth0.com
 
 # > 支付系统与客服支持 (Stripe & Intercom)
 DOMAIN-SUFFIX,stripe.com
