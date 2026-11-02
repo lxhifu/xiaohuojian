@@ -45,6 +45,14 @@ DOMAIN-SUFFIX,waze.com
 DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,widevine.com
 
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,flutter.dev
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,kaggle.com
+DOMAIN-SUFFIX,run.app
+DOMAIN-SUFFIX,web.app
+
 # > Google 相关 IP 
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
