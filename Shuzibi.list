@@ -27,6 +27,11 @@ DOMAIN-SUFFIX,debank.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,bibox.com
+DOMAIN-SUFFIX,bitbank.cc
+DOMAIN-SUFFIX,cex.io
+DOMAIN-SUFFIX,coinone.co.kr
+DOMAIN-SUFFIX,korbit.co.kr
 # > Binane
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.info
