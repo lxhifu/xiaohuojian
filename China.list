@@ -48,6 +48,13 @@ DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,yyets.com
 DOMAIN-SUFFIX,okjike.com
 DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,zhihu.com
 DOMAIN-KEYWORD,webtorrent
 
 # > 6. 游戏客户端 (提取关键字匹配)
