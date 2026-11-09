@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,ampproject.net
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,firebaseio.com
@@ -40,6 +41,8 @@ DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,tfhub.dev
+DOMAIN-SUFFIX,v8.dev
 DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
 DOMAIN-SUFFIX,webrtc.org
@@ -56,6 +59,7 @@ DOMAIN-SUFFIX,amp.dev
 DOMAIN-SUFFIX,chromebook.com
 DOMAIN-SUFFIX,chromecast.com
 DOMAIN-SUFFIX,dart.dev
+DOMAIN-SUFFIX,dartpad.dev
 DOMAIN-SUFFIX,nest.com
 DOMAIN-SUFFIX,web.dev
 
