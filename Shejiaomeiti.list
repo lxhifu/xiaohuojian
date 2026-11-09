@@ -177,12 +177,15 @@ DOMAIN-SUFFIX,parse.com
 # -----------------------------------------
 # [6] TikTok (字节跳动海外)
 # -----------------------------------------
+DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,marscode.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktok.net
 DOMAIN-SUFFIX,tiktok.org
@@ -194,6 +197,10 @@ DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokinfo.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,trae.ai
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,trae-api-sg.mchost.guru
 
 DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,capcutapi.com
@@ -215,6 +222,7 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,twimg
 DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,whatsapp
 
 # -----------------------------------------
 # [8] IP 地址段及 ASN (涵盖三大生态)
