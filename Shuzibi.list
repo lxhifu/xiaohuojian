@@ -32,6 +32,8 @@ DOMAIN-SUFFIX,bitbank.cc
 DOMAIN-SUFFIX,cex.io
 DOMAIN-SUFFIX,coinone.co.kr
 DOMAIN-SUFFIX,korbit.co.kr
+DOMAIN-SUFFIX,sushi.com
+DOMAIN-SUFFIX,zb.com
 # > Binane
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.info
@@ -47,6 +49,7 @@ DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binancecnt.com
 DOMAIN-SUFFIX,binancefuture.com
 DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnappzh.com
 DOMAIN-SUFFIX,bnbzh.ac
 DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.com
