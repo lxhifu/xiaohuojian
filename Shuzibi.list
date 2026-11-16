@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,coinmarketcap.com
 DOMAIN-SUFFIX,crypto.com
 DOMAIN-SUFFIX,dydx.exchange
 DOMAIN-SUFFIX,etherscan.io
+DOMAIN-SUFFIX,bscscan.com
+DOMAIN-SUFFIX,etherscan.com
 DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,gemini.com
 DOMAIN-SUFFIX,kraken.com
@@ -26,6 +28,7 @@ DOMAIN-SUFFIX,coincheck.com
 DOMAIN-SUFFIX,debank.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,pancakeswap.finance
+DOMAIN-SUFFIX,pancakeswap.com
 DOMAIN-SUFFIX,poloniex.com
 DOMAIN-SUFFIX,bibox.com
 DOMAIN-SUFFIX,bitbank.cc
