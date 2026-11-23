@@ -21,6 +21,12 @@ DOMAIN-SUFFIX,intercomcdn.com
 # > 基础架构与搜索依赖 (Algolia)
 DOMAIN-SUFFIX,algolia.net
 
+# > Claude (Anthropic)
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN,cdn.usefathom.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+
 # > 数据分析、遥测、A/B 测试与错误收集
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,static.cloudflareinsights.com
