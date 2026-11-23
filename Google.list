@@ -8,6 +8,11 @@ DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,recaptcha
 DOMAIN-KEYWORD,appspot
 
+# > Gemini (Google AI)
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+
 # > Google 旗下其他重要独立域名及顶级域名
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
